@@ -38,25 +38,25 @@ class CategoryCard extends StatelessWidget {
           children: [
             Image.asset(
               product.image,
-              height: 100,
+              height: 150,
             ),
             const SizedBox(
-              height: 10,
+              height: 20,
             ),
             Text(
               product.title,
               style: const TextStyle(
                   fontSize: 18,
                   color: Colors.white,
-                  fontWeight: FontWeight.w600),
+                  fontWeight: FontWeight.w800),
             ),
             const SizedBox(
-              height: 10,
+              height: 20,
             ),
             Text(
               "${product.courses} courses",
               style: const TextStyle(
-                fontSize: 15,
+                fontSize: 20,
                 color: Colors.white,
               ),
             ),

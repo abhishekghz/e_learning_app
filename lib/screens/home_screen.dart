@@ -77,15 +77,15 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                           SizedBox(
-                            height: 10.0,
+                            height: 20.0,
                           ),
                           Text(
                             "Today is a good day\nto learn something new!",
                             style: TextStyle(
                               color: Colors.black87,
                               wordSpacing: 2.5,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w700,
                             ),
                           ),
                         ],
@@ -94,8 +94,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       Column(
                         children: [
                           Container(
-                            height: 70,
-                            width: 70,
+                            height: 80,
+                            width: 80,
                             decoration: BoxDecoration(
                                 color: kpurple,
                                 borderRadius: BorderRadius.circular(15.0)),
@@ -108,12 +108,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                   const SizedBox(
-                    height: 20,
+                    height: 50,
                   ),
                   //sorting
                   Sorting(),
                   const SizedBox(
-                    height: 20,
+                    height: 50,
                   ),
                   //category list
 
@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         onTap: () {},
                         child: const Text(
                           "See All",
-                          style: TextStyle(fontSize: 16, color: kblue),
+                          style: TextStyle(fontSize: 18, color: kblue),
                         ),
                       ),
                     ],
